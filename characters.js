@@ -138,6 +138,6 @@ for (i = 0; i < dota2Heroes.length; i++) {
 
   // console.log(dota2Heroes[i]);
   document
-    .querySelector(".mainContainer")
+    .querySelector(".Container")
     .insertAdjacentHTML("beforeend", markup);
 }
